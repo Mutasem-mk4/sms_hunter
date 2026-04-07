@@ -1,0 +1,6 @@
+@echo off
+echo Starting SMS Hunter Backend...
+start cmd /k "python server.py"
+echo Opening Dashboard...
+start index.html
+echo System Running!
