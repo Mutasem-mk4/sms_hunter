@@ -1,5 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from scraper import SMSScraper
 import uvicorn
 
